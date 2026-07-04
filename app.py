@@ -73,9 +73,24 @@ label, .stSelectbox label, .stTextArea label {
 }
 
 div[data-baseweb="select"] > div {
-    border-radius: 16px;
-    border: 1px solid #cfe6d7;
-    background-color: #ffffff;
+    border-radius: 16px !important;
+    border: 1px solid #cfe6d7 !important;
+    background-color: #ffffff !important;
+    color: #20352a !important;
+}
+
+div[data-baseweb="select"] span {
+    color: #20352a !important;
+    font-weight: 600 !important;
+}
+
+div[data-baseweb="popover"] {
+    color: #20352a !important;
+}
+
+ul[role="listbox"] li {
+    color: #20352a !important;
+    background-color: #ffffff !important;
 }
 
 textarea {
